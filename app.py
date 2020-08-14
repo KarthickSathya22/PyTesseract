@@ -1,10 +1,6 @@
 # Importing Libraries:
 import pytesseract
 from PIL import Image
-
-# Path of the tesseract Engine:
-pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
-
 from flask import Flask,request,render_template,jsonify
 
 
